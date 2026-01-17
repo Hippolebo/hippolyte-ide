@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# R
+.Rhistory
+.RData
+.Rproj.user
+
+# Portfolio Performance files (too large)
+*.xml
+*.backup.xml
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Large data files (keep only filtered versions)
+belgium/Euronext_Equities_Brussels_2025-12-28.csv
+belgium/belgian_stocks_data.csv
+belgium/belgian_stocks_data.xlsx
+
+# Portfolio Performance CSV files (already imported)
+belgium/portfolio_performance_deposit.csv
+belgium/portfolio_performance_dividends_template.csv
+belgium/portfolio_performance_securities.csv
+belgium/portfolio_performance_transactions.csv
+
+# Jekyll build files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata

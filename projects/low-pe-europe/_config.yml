@@ -1,0 +1,39 @@
+# GitHub Pages Configuration
+title: Low P/E Europe Research
+description: Systematic analysis of value investing opportunities across Western European stock markets
+author: Hippolyte IDE
+
+# Theme
+theme: minima
+# Alternative themes you can try:
+# theme: jekyll-theme-cayman
+# theme: jekyll-theme-minimal
+# theme: jekyll-theme-slate
+
+# Build settings
+markdown: kramdown
+
+# Navigation
+header_pages:
+  - index.md
+  - belgium/index.md
+
+# Social links (update with your information)
+github_username: hippolyte-ide
+# twitter_username: your_twitter_handle
+
+# Exclude files from build
+exclude:
+  - .venv/
+  - .claude/
+  - .DS_Store
+  - .Rhistory
+  - "*.py"
+  - "*.xml"
+  - requirements.txt
+  - belgium/Euronext_Equities_Brussels_2025-12-28.csv
+  - belgium/belgian_stocks_data.csv
+  - belgium/belgian_stocks_data.xlsx
+  - belgium/belgian_stocks_filtered_sorted.csv
+  - belgium/portfolio_performance_*.csv
+  - belgium/PORTFOLIO_PERFORMANCE_INSTRUCTIONS.md
